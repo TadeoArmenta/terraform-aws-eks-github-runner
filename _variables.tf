@@ -57,7 +57,7 @@ variable "helm_chart_repo" {
 
 variable "helm_chart_version" {
   type        = string
-  default     = "0.12.2"
+  default     = "0.22.0"
   description = "GitHub Runner Controller Helm chart version."
 }
 
